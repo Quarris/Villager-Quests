@@ -1,0 +1,71 @@
+{
+    "title": "A Quest Title",
+    "description": [
+        "Welcome traveler!",
+        "I require your assistance in a particular task.",
+        "Bring me 2 spider eyes and a piece of string and you will be rewarded!"
+    ],
+    "profession": "minecraft:farmer",
+    "career": "fisherman",
+    "tasks": [
+        {
+            "type": "ITEM",
+            "items": [
+                {
+                    "name": "minecraft:dye",
+                    "amount": 23,
+                    "meta": 15
+                },
+                {
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "name": "minecraft:diamond_sword",
+                    "meta": 500,
+                    "nbt": [
+                        {
+                            "Enchantment": [
+                                {
+                                    "id": 9,
+                                    "level": 5
+                                },
+                                {
+                                    "id": 26
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "duration": 5,
+    "item_rewards": [
+        {
+            "name": "minecraft:dye",
+            "amount": 38,
+            "meta": 15
+        },
+        {
+            "name": "minecraft:diamond"
+        },
+        {
+            "name": "minecraft:diamond_sword",
+            "meta": 500,
+            "nbt": [
+                {
+                    "Enchantment": [
+                        {
+                            "id": 9,
+                            "level": 5
+                        },
+                        {
+                            "id": 26
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "xp_reward": 10
+}
